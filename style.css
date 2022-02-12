@@ -113,29 +113,51 @@ main {
   }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 450px) {
   .card {
     width: 80vw;
     height: 40vh;
   }
 
   .cardBack > h1 {
-    font-size: 1.3rem;
+    font-size: 1rem;
+    margin-top: 15%;
   }
 
   .cardBack > p:nth-child(2) {
-    margin-top: 2rem;
-  }
-
-  .cardBack > p:nth-child(4) {
     margin-top: 1rem;
     font-size: 1.2rem;
+  }
+
+  .cardBack > p:nth-child(3) {
+    font-size: 1.2rem;
+  }
+
+  .address > p:nth-child(1) {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .address > p:nth-child(2) {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .regLink {
+    font-size: 0.8rem;
+    margin-top: 0rem;
+    margin-bottom: 0;
+  }
+
+  .icons {
+    margin-top: 2rem;
   }
 
   .micky,
   .ducks {
     display: flex;
     align-items: flex-end;
+    margin-top: -2rem;
   }
 
   .micky img:first-child {
@@ -149,16 +171,16 @@ main {
   }
 
   .ducks img {
-    width: 120px;
+    width: 80px;
     height: fit-content;
   }
 
   .ducks img:first-child {
-    margin: 0 -2rem;
+    margin: 0 -1rem;
   }
 
   .ducks img:nth-child(2) {
-    margin: -1.5rem -2rem;
+    margin: -1.2rem -2rem;
     transform: rotateY(180deg);
   }
 }
