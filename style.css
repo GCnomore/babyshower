@@ -176,7 +176,8 @@ main {
 
   .ducks img {
     width: 80px;
-    height: fit-content;
+    height: auto;
+    align-self: flex-start;
   }
 
   .ducks img:first-child {
