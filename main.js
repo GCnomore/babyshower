@@ -17,18 +17,18 @@ card.addEventListener("click", (e) => {
 setTimeout(() => {
   txt1.classList.remove("hide");
   txt1.classList.add("fadeIn");
-}, 500);
+}, 1500);
 
 setTimeout(() => {
   txt2.classList.remove("hide");
   txt2.classList.add("fadeIn");
-}, 2500);
+}, 3500);
 
 setTimeout(() => {
   txt3.classList.remove("hide");
   txt3.classList.add("fadeIn");
-}, 5000);
+}, 6000);
 
 setTimeout(() => {
   window.scroll({ behavior: "smooth", top: 1000 });
-}, 8000);
+}, 9000);

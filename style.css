@@ -1,5 +1,5 @@
 body {
-  background-image: url("./images/bg13.jpg");
+  background-image: url("./images/bg13.webp");
   background-size: 250% 100%;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./images/bg1.jpg");
+  background-image: url("./images/bg1.webp");
   background-size: cover;
   /* background-repeat: no-repeat; */
   /* background-color: #f39f86;
@@ -98,7 +98,6 @@ main {
 
 .cardBack {
   text-align: center;
-  font-family: "Indie Flower", cursive;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -107,9 +106,12 @@ main {
   margin: 10rem 0;
   position: relative;
   width: 100%;
+  font-family: "Fira Code", monospace;
 }
 
 .cardBack > h1 {
+  font-family: "Indie Flower", cursive;
+
   transform: scaleY(3);
   font-weight: 600;
   letter-spacing: 2px;
