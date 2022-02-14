@@ -155,7 +155,7 @@ main {
 @media screen and (max-width: 450px) {
   .card {
     width: 80vw;
-    height: 45vh;
+    height: 24rem;
   }
 
   .cardFront > h1 {
