@@ -99,18 +99,19 @@ main {
   text-align: center;
   font-family: "Indie Flower", cursive;
   display: flex;
+  align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   height: 100%;
   margin: 10rem 0;
+  position: relative;
+  width: 100%;
 }
 
 .cardBack > h1 {
-  /* color: rgb(241, 79, 142); */
   transform: scaleY(3);
   font-weight: 600;
   letter-spacing: 2px;
-  margin-top: 5rem;
 }
 
 .cardBack > p {
@@ -119,7 +120,6 @@ main {
 }
 
 .cardBack > p:nth-child(2) {
-  margin-top: 5rem;
   font-weight: bold;
 }
 
@@ -128,7 +128,6 @@ main {
 }
 
 .cardBack > p:nth-child(4) {
-  margin-top: 3rem;
   font-size: 1.6rem;
 }
 
@@ -156,7 +155,7 @@ main {
 @media screen and (max-width: 450px) {
   .card {
     width: 80vw;
-    height: 40vh;
+    height: 45vh;
   }
 
   .cardFront > h1 {
@@ -165,17 +164,21 @@ main {
 
   .cardBack > h1 {
     font-size: 1rem;
-    margin-top: 15%;
+    margin-top: 5rem;
   }
 
   .cardBack > p:nth-child(2) {
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-size: 1.2rem;
   }
 
   .cardBack > p:nth-child(3) {
     font-size: 1.2rem;
-    margin-top: -1rem;
+  }
+
+  .address {
+    flex-direction: column;
+    margin-top: 1rem;
   }
 
   .address > p:nth-child(1) {
@@ -190,12 +193,12 @@ main {
 
   .regLink {
     font-size: 0.8rem;
-    margin-top: 0rem;
+    margin-top: 1rem;
     margin-bottom: 0;
   }
 
   .icons {
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
 
   .micky,
@@ -213,6 +216,10 @@ main {
   .micky img:nth-child(2) {
     width: 100px;
     height: fit-content;
+  }
+
+  .ducks {
+    margin-left: -1rem;
   }
 
   .ducks img {
