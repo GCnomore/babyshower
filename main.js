@@ -9,10 +9,11 @@ const txt2 = document.querySelector(".txt2");
 const txt3 = document.querySelector(".txt3");
 
 setTimeout(() => {
-  card.classList.remove("hide");
-}, 1000);
-setTimeout(() => {
   card.classList.add("fadeIn");
+}, 1000);
+
+setTimeout(() => {
+  card.classList.remove("hide");
 }, 1100);
 
 card.addEventListener("click", (e) => {
