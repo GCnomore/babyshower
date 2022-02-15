@@ -1,9 +1,9 @@
 body {
-  background-image: url("./images/bg13.webp");
-  background-size: 250% 100%;
-  background-position: bottom;
+  background-image: url("./images/BG.png");
+  background-size: 100%;
+  background-position: 0 10%;
   background-repeat: no-repeat;
-  background-color: #dcddde;
+  /* background-color: #dcddde; */
   /* background-blend-mode: darken; */
   /* align-items: center; */
 }
@@ -15,7 +15,7 @@ body {
   height: 100vh;
   text-align: center;
   font-size: 2rem;
-  font-family: "Fira Code", monospace;
+  font-family: "Cinzel Decorative", cursive;
   color: black;
 }
 
@@ -70,7 +70,7 @@ main {
 
 .regLink {
   color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin: 0;
   margin-top: 2rem;
 }
@@ -106,15 +106,7 @@ main {
   margin: 10rem 0;
   position: relative;
   width: 100%;
-  font-family: "Fira Code", monospace;
-}
-
-.cardBack > h1 {
-  font-family: "Indie Flower", cursive;
-
-  transform: scaleY(3);
-  font-weight: 600;
-  letter-spacing: 2px;
+  font-family: "Rampart One", cursive;
 }
 
 .cardBack > p {
@@ -161,12 +153,17 @@ main {
     height: 24rem;
   }
 
+  .cardImg {
+    width: 90vw;
+    height: 24rem;
+  }
+
   .cardFront > h1 {
     font-size: 2rem;
   }
 
   .cardBack > h1 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-top: 5rem;
   }
 
@@ -198,6 +195,7 @@ main {
     font-size: 0.8rem;
     margin-top: 1rem;
     margin-bottom: 0;
+    font-family: "Cabin Sketch", cursive;
   }
 
   .icons {
