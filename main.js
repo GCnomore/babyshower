@@ -1,34 +1,26 @@
 const card = document.querySelector(".card");
+const cardImg = document.querySelector(".cardImg");
 const cardFront = document.querySelector(".cardFront");
 const cardback = document.querySelector(".cardBack");
+const next = document.querySelector(".bgContainer");
 
 const txt1 = document.querySelector(".txt1");
 const txt2 = document.querySelector(".txt2");
 const txt3 = document.querySelector(".txt3");
 
+setTimeout(() => {
+  card.classList.remove("hide");
+}, 1000);
+setTimeout(() => {
+  card.classList.add("fadeIn");
+}, 1100);
+
 card.addEventListener("click", (e) => {
-  card.classList.add("rotate");
+  console.log("click");
+  card.classList.remove("fadeIn");
+  card.classList.add("fadeOut");
   setTimeout(() => {
-    cardFront.classList.add("hidden");
-    cardback.classList.remove("hidden");
-  }, 400);
+    next.classList.remove("hide");
+    next.classList.add("fadeIn");
+  }, 1000);
 });
-
-setTimeout(() => {
-  txt1.classList.remove("hide");
-  txt1.classList.add("fadeIn");
-}, 1500);
-
-setTimeout(() => {
-  txt2.classList.remove("hide");
-  txt2.classList.add("fadeIn");
-}, 3500);
-
-setTimeout(() => {
-  txt3.classList.remove("hide");
-  txt3.classList.add("fadeIn");
-}, 6000);
-
-setTimeout(() => {
-  window.scroll({ behavior: "smooth", top: 1000 });
-}, 9000);
