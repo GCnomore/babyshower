@@ -20,7 +20,7 @@ card.addEventListener("click", (e) => {
   card.classList.remove("fadeIn");
   card.classList.add("fadeOut");
   setTimeout(() => {
-    next.classList.remove("hide");
+    next.classList.remove("hidden");
     next.classList.add("fadeIn");
   }, 1000);
 });

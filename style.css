@@ -142,6 +142,10 @@ main {
     color: black;
   }
 
+  .hidden {
+    display: none;
+  }
+
   .address {
     flex-direction: column;
     margin-top: 1rem;
